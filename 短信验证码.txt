@@ -1,0 +1,12 @@
+项目原有
+    var ACCOUNT_SID = '8aaf070855b647ab0155b9f80994058a';
+    var AUTH_TOKEN = 'aa8aa679414e49df8908ea5b3d043c24';
+    var Rest_URL = 'https://app.cloopen.com:8883';
+    var AppID = '8aaf070855b647ab0155b9f809f90590';
+
+自己的
+
+    var ACCOUNT_SID = '8aaf0708697b6beb016985281c2403ed';
+    var AUTH_TOKEN = '1ebe1649ad774c53b4d319161975d53f';
+    var Rest_URL = 'https://app.cloopen.com:8883';
+    var AppID = '8aaf0708697b6beb016985281c8103f4';

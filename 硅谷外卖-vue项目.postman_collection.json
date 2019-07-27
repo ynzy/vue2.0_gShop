@@ -1,0 +1,283 @@
+{
+	"id": "3c521130-9159-9051-a6ff-9426befcb36b",
+	"name": "硅谷外卖-vue项目",
+	"description": "",
+	"order": [
+		"e63d17c1-c567-d803-ca37-4543829d578d",
+		"42cb9e01-f60f-5a67-dc9a-60d00049b9da",
+		"21e4ddba-83e6-dc7c-a0d5-a4183dc42b0f",
+		"88b23dea-a711-2caa-cf57-b26e9b2fdd1d",
+		"f072394c-2368-c4a7-33cd-df6cfbd3b940",
+		"43f7c1ef-8747-83fd-e126-5ae51d031982",
+		"597f5f04-d663-41f1-4731-ecd678d73c77",
+		"cd84e788-1410-fcaf-8f2b-4f95dab0b77e",
+		"b4156ffd-be54-4dde-4dfc-18bd1e4621f8",
+		"cb40f8e8-1364-0705-a51c-2818a2966c85"
+	],
+	"folders": [],
+	"timestamp": 1515033004854,
+	"owner": "1211988",
+	"public": false,
+	"requests": [
+		{
+			"id": "21e4ddba-83e6-dc7c-a0d5-a4183dc42b0f",
+			"headers": "",
+			"url": "http://localhost:3000/shops?latitude=40.10038&longitude=116.36867",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520219216971,
+			"name": "根据经纬度获取商铺列表",
+			"description": "#### 请求URL：\r\n\thttp://cangdu.org:8001/shopping/restaurants\r\n\r\n#### 示例：\r\n[http://cangdu.org:8001/shopping/restaurants?latitude=40.10038&longitude=116.36867](http://cangdu.org:8001/shopping/restaurants?latitude=40.10038&longitude=116.36867)\r\n\r\n#### 请求方式：\r\n\tGET\r\n\r\n#### 参数类型：query\r\n\t|参数          |是否必选  |类型     |说明|\r\n\t|latitude      |Y        |string   |纬度|\r\n\t|longitude     |Y       |string    |经度|\r\n\r\n\r\n#### 返回示例：\r\n\t[\r\n\t  {\r\n\t    name: \"肯德基\",\r\n\t    address: \"上海市宝山区淞宝路155弄18号星月国际商务广场1层\",\r\n\t    id: 1,\r\n\t    latitude: 31.38098,\r\n\t    longitude: 121.50146,\r\n\t    location: [\r\n\t      121.50146,\r\n\t      31.38098\r\n\t    ],\r\n\t    phone: \"1232313124324\",\r\n\t    category: \"快餐便当/简餐\",\r\n\t    supports: [\r\n\t      {\r\n\t        description: \"已加入“外卖保”计划，食品安全有保障\",\r\n\t        icon_color: \"999999\",\r\n\t        icon_name: \"保\",\r\n\t        id: 7,\r\n\t        name: \"外卖保\",\r\n\t        _id: \"591bec73c2bbc84a6328a1e5\"\r\n\t      }\r\n\t    ],\r\n\t    status: 0,\r\n\t    recent_order_num: 615,\r\n\t    rating_count: 389,\r\n\t    rating: 1.6,\r\n\t    promotion_info: \"他依然有人有人有人有人有人\",\r\n\t    piecewise_agent_fee: {\r\n\t      tips: \"配送费约¥5\"\r\n\t    },\r\n\t    opening_hours: [\r\n\t      \"8:30/20:30\"\r\n\t    ],\r\n\t    license: {\r\n\t      catering_service_license_image: \"\",\r\n\t      business_license_image: \"\"\r\n\t    },\r\n\t    is_new: true,\r\n\t    is_premium: true,\r\n\t    image_path: \"/img/shop/15c1513a00615.jpg\",\r\n\t    identification: {\r\n\t      registered_number: \"\",\r\n\t      registered_address: \"\",\r\n\t      operation_period: \"\",\r\n\t      licenses_scope: \"\",\r\n\t      licenses_number: \"\",\r\n\t      licenses_date: \"\",\r\n\t      legal_person: \"\",\r\n\t      identificate_date: null,\r\n\t      identificate_agency: \"\",\r\n\t      company_name: \"\"\r\n\t    },\r\n\t    float_minimum_order_amount: 20,\r\n\t    float_delivery_fee: 5,\r\n\t    distance: \"19.5公里\",\r\n\t    order_lead_time: \"40分钟\",\r\n\t    description: \"好吃的\",\r\n\t    delivery_mode: {\r\n\t      color: \"57A9FF\",\r\n\t      id: 1,\r\n\t      is_solid: true,\r\n\t      text: \"蜂鸟专送\"\r\n\t    },\r\n\t    activities: [\r\n\t      {\r\n\t        icon_name: \"减\",\r\n\t        name: \"满减优惠\",\r\n\t        description: \"满30减5，满60减8\",\r\n\t        icon_color: \"f07373\",\r\n\t        id: 1,\r\n\t        _id: \"591bec73c2bbc84a6328a1e7\"\r\n\t      }\r\n\t    ],\r\n\t  }\r\n\t]",
+			"collectionId": "3c521130-9159-9051-a6ff-9426befcb36b",
+			"responses": []
+		},
+		{
+			"id": "42cb9e01-f60f-5a67-dc9a-60d00049b9da",
+			"headers": "",
+			"url": "http://localhost:3000/index_category",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520219302163,
+			"name": "获取食品分类列表",
+			"description": "#### 请求URL：\r\n\thttp://cangdu.org:8001/v2/index_entry\r\n\r\n#### 请求方式：\r\n\tGET\r\n\r\n#### 参数类型：\r\n\t无\r\n\r\n#### 返回示例：\r\n\t[\r\n\t  {\r\n\t    id: 1,\r\n\t    is_in_serving: true,\r\n\t    description: \"0元早餐0起送，每天都有新花样。\",\r\n\t    title: \"预订早餐\",\r\n\t    link: \"\",\r\n\t    image_url: \"/d/49/7757ff22e8ab28e7dfa5f7e2c2692jpeg.jpeg\",\r\n\t    icon_url: \"\",\r\n\t    title_color: \"\",\r\n\t    __v: 0\r\n\t  },\r\n\t  {\r\n\t    id: 65,\r\n\t    is_in_serving: true,\r\n\t    description: \"\",\r\n\t    title: \"土豪推荐\",\r\n\t    image_url: \"/d/49/7757ff22e8ab28e7dfa5f7e2c2692jpeg.jpeg\",\r\n\t    link: \"\",\r\n\t    icon_url: \"\",\r\n\t    title_color: \"\",\r\n\t    __v: 0\r\n\t  },\r\n\t  ... 共n条数据\r\n\t]",
+			"collectionId": "3c521130-9159-9051-a6ff-9426befcb36b",
+			"responses": []
+		},
+		{
+			"id": "43f7c1ef-8747-83fd-e126-5ae51d031982",
+			"headers": "",
+			"url": "http://localhost:3000/sendcode?phone=13716962779",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "3c521130-9159-9051-a6ff-9426befcb36b",
+			"data": null,
+			"dataMode": "params",
+			"name": "发送短信验证码",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1520222165461,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "597f5f04-d663-41f1-4731-ecd678d73c77",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:3000/login_sms",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "3c521130-9159-9051-a6ff-9426befcb36b",
+			"data": [
+				{
+					"key": "phone",
+					"value": "13716962779",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "code",
+					"value": "342144",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "手机号验证码登陆",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1520222275405,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"headers": "",
+			"url": "http://localhost:3000/search_shops?keyword=test&geohash=40.10038,116.36867",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"name": "根据关键字搜索商家列表",
+			"descriptionFormat": "html",
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"folder": null,
+			"id": "88b23dea-a711-2caa-cf57-b26e9b2fdd1d",
+			"queryParams": [
+				{
+					"key": "keyword",
+					"value": "test"
+				},
+				{
+					"key": "geohash",
+					"value": "40.10038,116.36867"
+				}
+			],
+			"auth": null,
+			"collectionId": "3c521130-9159-9051-a6ff-9426befcb36b"
+		},
+		{
+			"id": "b4156ffd-be54-4dde-4dfc-18bd1e4621f8",
+			"headers": "",
+			"url": "http://localhost:3000/captcha",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "3c521130-9159-9051-a6ff-9426befcb36b",
+			"data": null,
+			"dataMode": "params",
+			"name": "一次性验证码",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1520300096758,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "cb40f8e8-1364-0705-a51c-2818a2966c85",
+			"headers": "",
+			"url": "http://localhost:3000/logout",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "3c521130-9159-9051-a6ff-9426befcb36b",
+			"data": null,
+			"dataMode": "params",
+			"name": "用户登出",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1525225735094,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "cd84e788-1410-fcaf-8f2b-4f95dab0b77e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:3000/userinfo",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "3c521130-9159-9051-a6ff-9426befcb36b",
+			"data": [
+				{
+					"key": "phone",
+					"value": "13716962779",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "code",
+					"value": "342144",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "根据会话获取用户信息",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1520222365313,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e63d17c1-c567-d803-ca37-4543829d578d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:3000/position/40.10038,116.36867",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "name",
+					"value": "aa",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pwd",
+					"value": "123",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "boss",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520219479400,
+			"name": "根据经纬度获取位置详情",
+			"description": "#### 请求URL：\r\n\thttp://cangdu.org:8001/v2/pois/:geohash\r\n\r\n#### 示例：\r\n[http://cangdu.org:8001/v2/pois/40.10038,116.36867](http://cangdu.org:8001/v2/pois/31.22967,121.4762)\r\n\r\n#### 请求方式：\r\n\tGET\r\n\r\n#### 参数类型：param\r\n\r\n\t|参数\t\t|是否必选 |类型     |说明\r\n\t|geohash    |Y       |string   |经纬度\r\n\r\n#### 返回示例：\r\n\r\n\t{\r\n\t address: \"上海市黄浦区西藏中路\",\r\n\t city: \"上海市\",\r\n\t geohash: \"31.22967,121.4762\",\r\n\t latitude: \"31.22967\",\r\n\t longitude: \"121.4762\",\r\n\t name: \"黄浦区上海人民广场\"\r\n\t}\r\n",
+			"collectionId": "3c521130-9159-9051-a6ff-9426befcb36b",
+			"responses": []
+		},
+		{
+			"id": "f072394c-2368-c4a7-33cd-df6cfbd3b940",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://localhost:3000/login_pwd",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "aaa",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "pwd",
+					"value": "123",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520299705441,
+			"name": "用户名密码登陆",
+			"description": "",
+			"collectionId": "3c521130-9159-9051-a6ff-9426befcb36b",
+			"responses": []
+		}
+	]
+}
