@@ -18,7 +18,7 @@
     "moment": "^2.24.0",
     "node-static": "^0.7.11",
     "swiper": "^4.5.0",
-    "vant": "^1.5.9",
+    "vant": "^2.1.8",
     "vue": "^2.5.2",
     "vue-lazyload": "^1.2.6",
     "vue-router": "^3.0.1",
